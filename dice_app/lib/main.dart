@@ -30,11 +30,11 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Random dice'),
           centerTitle: true,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.amber,
         ),
         body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           Row(
